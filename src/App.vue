@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <Navbar />
+
     <div class="bg-gray-100 flex">
       <div
         class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12"
@@ -61,11 +63,13 @@
 </template>
 
 <script>
+import Navbar from './components/Navbar'
 import DestinationCard from './components/DestinationCard'
 
 export default {
   name: 'app',
   components: {
+    Navbar,
     DestinationCard,
   },
   data() {
