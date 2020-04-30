@@ -46,6 +46,7 @@
           class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2"
           >Messages</a
         >
+
         <AccountDropdown class="hidden sm:block sm:ml-6" />
       </div>
 
@@ -58,7 +59,7 @@
           />
           <span class="ml-3 font-semibold text-white">Jane Doe</span>
         </div>
-        
+
         <div class="mt-4">
           <a href="#" class="block text-gray-400 hover:text-white"
             >Account settings</a
