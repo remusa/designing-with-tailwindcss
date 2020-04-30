@@ -34,6 +34,7 @@
           </div>
         </div>
       </div>
+
       <div class="hidden lg:block lg:w-1/2 lg:relative">
         <img
           class="absolute inset-0 h-full w-full object-cover object-center"
@@ -42,6 +43,7 @@
         />
       </div>
     </div>
+
     <div>
       <div class="max-w-md sm:max-w-xl lg:max-w-6xl mx-auto px-8 lg:px-12 py-8">
         <h2 class="text-xl text-gray-900">Popular destinations</h2>
