@@ -44,8 +44,6 @@
       </div>
     </div>
 
-    <PropertyCard :property="property" />
-
     <div>
       <div class="max-w-md sm:max-w-xl lg:max-w-6xl mx-auto px-8 lg:px-12 py-8">
         <h2 class="text-xl text-gray-900">Popular destinations</h2>
@@ -57,12 +55,15 @@
           <div
             class="mt-6 w-full px-4 lg:w-1/2 xl:w-1/3"
             v-for="destination in popularDestinations"
+            :key="destination.propertyCount"
           >
             <DestinationCard :destination="destination" />
           </div>
         </div>
       </div>
     </div>
+
+    <PropertyCard :property="property" />
   </div>
 </template>
 
