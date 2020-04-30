@@ -1,0 +1,15 @@
+{
+  "name": "designing-with-tailwindcss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "postcss css/tailwind.css -o public/build/tailwind.css",
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.1"
+  }
+}
