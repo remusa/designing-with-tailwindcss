@@ -29,7 +29,7 @@
       </div>
     </div>
 
-    <div
+    <nav
       :class="isOpen ? 'block' : 'hidden'"
       class="px-2 pt-2 pb-4 sm:flex sm:p-0"
     >
@@ -49,8 +49,8 @@
         >Messages</a
       >
 
-      <AccountDropdown />
-    </div>
+      <AccountDropdown class="ml-6 " />
+    </nav>
   </header>
 </template>
 
