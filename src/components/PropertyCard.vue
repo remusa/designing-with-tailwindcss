@@ -3,16 +3,15 @@
     <!-- For IE -->
     <!-- <div class="h-48 bg-cover bg-center" :style="{ backgroundImage: `url('${property.imageUrl}' `}"></div> -->
 
-    <div class="relative pb-5/6 rounded-lg">
+    <div class="relative pb-5/6">
       <img
         class="absolute h-full w-full object-cover rounded-lg shadow-md"
         :src="property.imageUrl"
         :alt="property.imageAlt"
       />
     </div>
-
     <div class="relative px-4 -mt-16">
-      <div class="bg-white p-6 rounded-lg shadow-md">
+      <div class="bg-white p-6 rounded-lg shadow-lg">
         <div class="flex items-baseline">
           <span
             class="inline-block bg-teal-200 text-teal-800 text-xs px-2 rounded-full uppercase font-semibold tracking-wide"
